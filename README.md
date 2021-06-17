@@ -34,3 +34,8 @@ The client and server scripts can be found by clicking the link in the following
 |Non-shared    |Edge          |  [Client script](\Scénario%20non%20partagé\Edge\socket.io-p2p-master\examples\Pictionary\src\index.js)<br>[Server script](\Scénario%20non%20partagé\Edge\socket.io-p2p-master\examples\Pictionary\server.js)  |
 |Shared        |Cloud         |  [Client script](\Scénario%20partagé\Cloud\public\main.js)<br>[Server script](\Scénario%20partagé\Cloud\server.js) |
 |Shared        |Edge          |  [Client script](\Scénario%20partagé\Edge\socket.io-p2p-master\examples\Pictionary\src\index.js)<br>[Server script](\Scénario%20partagé\Edge\socket.io-p2p-master\examples\Pictionary\server.js)  |
+
+
+The three setting has to be set : Display draw at False, Display guess box at True for user personal device (device with the guesser or drawer role only)
+For the display role, the device has to be set: Display draw at True, Display guess box at Fals eand allow to use the drawing area at False
+For the drawing role, the device has to be set: Display draw at True, Display guess box at False and allow to use the drawing area at True
