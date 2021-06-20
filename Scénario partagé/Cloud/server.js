@@ -25,11 +25,11 @@ var start = new Date().getTime()
 
 var filename = 'logs.txt'
 
-fs.appendFile(filename, '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n server launched \n', (err) => {
+fs.appendFile(filename, '\n\n\n\n\n\n\n\n\n server launched \n', (err) => {
     if (err) {
         throw err;
     }
-    console.log("log saved");
+    //console.log("log saved");
 });
 
 io.on('connection', function(socket) {
@@ -69,7 +69,7 @@ io.on('connection', function(socket) {
             if (err) {
                 throw err;
             }
-            console.log("log saved");
+            //console.log("log saved");
         });
     })
     // This listener will specify if the connected user is a drawer or not.
